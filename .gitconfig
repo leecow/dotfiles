@@ -1,0 +1,12 @@
+[user]
+	email = leecow@microsoft.com
+[user]
+	name = leecow
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+[core]
+	excludesfile = /Users/leecow/.gitignore_global
+[color]
+	ui = auto
